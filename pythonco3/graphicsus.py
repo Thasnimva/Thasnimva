@@ -1,0 +1,15 @@
+from graphicsuse import Rectangle
+from graphicsuse import circle
+print("Read values:\nRectangle:\n")
+l=int(input("Enter length"))
+b=int(input("Enter breadth"))
+r_area=Rectangle.area(l,b)
+r_perimeter=Rectangle.perimeter(l,b)
+print("Circle:\n")
+r=int(input("Enter radius:"))
+area=circle.area(circle.pi,r)
+perimeter=circle.perimeter(circle.pi,r)
+print("Area of rectangle:",r_area)
+print("Area of circle:",area)
+print("Perimeter of Rectangle:",r_perimeter)
+print("perimeter of Circle:",perimeter)
